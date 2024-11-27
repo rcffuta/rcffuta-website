@@ -129,10 +129,13 @@ export default function ComingSoon() {
                                     Stay in touch with us:
                                 </span>
 
-
                                 <div>
                                     <Link
-                                        href={"#"}
+                                        href={
+                                            "https://web.facebook.com/rcffuta/"
+                                        }
+                                        target="_blank"
+                                        title="Follow us on facebook"
                                         // className="tmp-btn btn-primary"
                                     >
                                         <CustomImage
@@ -143,8 +146,10 @@ export default function ComingSoon() {
                                         />
                                     </Link>
                                     <Link
-                                        href={"#"}
-                                        // className="tmp-btn btn-primary"
+                                        href={
+                                            "https://www.instagram.com/rcffuta"
+                                        }
+                                        title="Follow us on Instagram"
                                     >
                                         <CustomImage
                                             src="/icons/instagram.svg"
@@ -154,8 +159,8 @@ export default function ComingSoon() {
                                         />
                                     </Link>
                                     <Link
-                                        href={"#"}
-                                        // className="tmp-btn btn-primary"
+                                        href={"https://t.me/+sWmOyTcZvCY2OGQ8"}
+                                        title="Follow our messages on telegram"
                                     >
                                         <CustomImage
                                             src="/icons/telegram.svg"
@@ -165,8 +170,8 @@ export default function ComingSoon() {
                                         />
                                     </Link>
                                     <Link
-                                        href={"#"}
-                                        // className="tmp-btn btn-primary"
+                                        href={"mailto:rcffuta@gmail.com"}
+                                        title="Send us a mail"
                                     >
                                         <CustomImage
                                             src="/icons/mail.svg"
@@ -180,13 +185,13 @@ export default function ComingSoon() {
                         </div>
                     </div>
 
-                    <div className="col-lg-5 order-xl-2 order-md-1 order-sm-1 order-1 mb_md--30 mb_sm--30">
+                    <div className="col-lg-5 order-xl-2 order-md-1 order-sm-1 order-1 mb_md--30 mb_sm--30 mt_sm--30">
                         <div className="logo-flex">
                             <CustomImage
                                 src="/images/common/crm.png"
                                 alt="CRM"
-                                width={200}
-                                height={200}
+                                width={140}
+                                height={140}
                             />
                             <CustomImage
                                 src="/images/common/rcf.png"
