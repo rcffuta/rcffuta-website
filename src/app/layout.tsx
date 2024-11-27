@@ -1,17 +1,28 @@
 import type { Metadata } from "next";
-import localFont from "next/font/local";
-import "./globals.css";
+// import localFont from "next/font/local";
+import "@/assets/css/vendor/fontawesome.css";
+import "@/assets/css/plugins/swiper.css";
+import "@/assets/css/plugins/cursor.css";
+import "@/assets/css/vendor/animate.min.css";
+import "@/assets/css/vendor/metismenu.css";
+import "@/assets/css/vendor/bootstrap.min.css";
+import "@/assets/scss/style.scss";
+// import "@/assets/css/style.css";
+import "aos/dist/aos.css";
+import "react-modal-video/css/modal-video.min.css";
 
-const geistSans = localFont({
-  src: "./fonts/GeistVF.woff",
-  variable: "--font-geist-sans",
-  weight: "100 900",
-});
-const geistMono = localFont({
-  src: "./fonts/GeistMonoVF.woff",
-  variable: "--font-geist-mono",
-  weight: "100 900",
-});
+// import "./globals.css";
+
+// const geistSans = localFont({
+//   src: "./fonts/GeistVF.woff",
+//   variable: "--font-geist-sans",
+//   weight: "100 900",
+// });
+// const geistMono = localFont({
+//   src: "./fonts/GeistMonoVF.woff",
+//   variable: "--font-geist-mono",
+//   weight: "100 900",
+// });
 
 export const metadata: Metadata = {
   title: "Create Next App",
@@ -25,7 +36,7 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={`${geistSans.variable} ${geistMono.variable}`}>
+      <body>
         {children}
       </body>
     </html>
