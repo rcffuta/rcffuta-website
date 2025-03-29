@@ -7,6 +7,7 @@ import type { Metadata } from "next";
 // import "@/assets/css/vendor/metismenu.css";
 import "@/assets/vendor/bootstrap.min.css";
 import "@/assets/scss/style.scss";
+import { CopyRight } from "@/components/ComingSoon";
 
 export const metadata: Metadata = {
     title: "Redeemed Christian Fellowship, FUTA Chapter",
@@ -19,10 +20,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body>
-        {children}
-      </body>
-    </html>
+      <html lang="en">
+          <body>
+              {children}
+              <CopyRight />
+          </body>
+      </html>
   );
 }

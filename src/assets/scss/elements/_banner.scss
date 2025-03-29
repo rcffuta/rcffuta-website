@@ -842,6 +842,7 @@
             font-size: 130px;
             line-height: 1.1;
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
+            color: var(--color-white);
             @media #{$laptop-device} {
                 font-size: 100px;
             }
@@ -859,7 +860,6 @@
             @media #{$large-mobile} {
                 font-size: 36px;
             }
-            color: var(--color-white);
         }
         .disc{
             transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1);
