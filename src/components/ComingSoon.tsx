@@ -159,7 +159,7 @@ export default function ComingSoon() {
                                         />
                                     </Link>
                                     <Link
-                                        href={"https://t.me/+sWmOyTcZvCY2OGQ8"}
+                                        href={"https://t.me/rcffuta"}
                                         title="Follow our messages on telegram"
                                     >
                                         <CustomImage
